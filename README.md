@@ -20,30 +20,25 @@ As part of this task, the following deliverables were prepared.
 - S3 Bucket Configuration Screenshot
 - Proof that static website hosting was enabled on the S3 bucket.
 
-###### [x] S3 bucket SCREENSHOT
- ![S3 Bucket] <img width="950" height="290" alt="Screenshot 2025-08-11 121610" src="https://github.com/user-attachments/assets/2bf36d9a-a2f4-4b82-bbc6-ef454658c2c7" />
+###### S3 bucket SCREENSHOT
+ <img width="950" height="290" alt="Screenshot 2025-08-11 121610" src="https://github.com/user-attachments/assets/2bf36d9a-a2f4-4b82-bbc6-ef454658c2c7" />
  <img width="957" height="224" alt="Screenshot 2025-08-11 120846" src="https://github.com/user-attachments/assets/159a1ba0-c105-4d2c-aeb3-5f94319448db" />
  <img width="959" height="359" alt="Screenshot 2025-08-11 115430" src="https://github.com/user-attachments/assets/98e64b85-cb2a-4746-902c-3e83587388bf" />
 
-##### [x] Bucket Policy Screenshot:
+##### Bucket Policy Screenshot:
 Demonstrating the bucket policy configured to allow public access.
-![S3 Bucket Policy for Public Access] <img width="960" height="398" alt="Screenshot 2025-08-11 120137" src="https://github.com/user-attachments/assets/a4a731da-57ba-496e-9b02-ff0315b27330" />
+<img width="960" height="398" alt="Screenshot 2025-08-11 120137" src="https://github.com/user-attachments/assets/a4a731da-57ba-496e-9b02-ff0315b27330" />
 
-##### [x] CloudFront Distribution Screenshot:
+##### CloudFront Distribution Screenshot:
 Showing the CloudFront distribution settings and its deployment status.
-![CloudFront Distribution Settings] 
-
 <img width="949" height="159" alt="Screenshot 2025-08-11 121248" src="https://github.com/user-attachments/assets/de34f014-a954-4e7f-a6d9-b081b4fbee74" />
-
 <img width="959" height="359" alt="Screenshot 2025-08-11 115430" src="https://github.com/user-attachments/assets/093bafd2-383e-4f79-ac63-a1de947c8a3a" />
 <img width="960" height="401" alt="distribution cloudfront" src="https://github.com/user-attachments/assets/ccf05f78-9c25-483f-b686-30491227ebfd" />
 
-
-
-##### [x] Live Website Screenshot:
+##### Live Website Screenshot via cloudfront:
 A visual confirmation of the deployed website, accessible through the CloudFront domain.
-![Live Website via CloudFront] <img width="958" height="497" alt="live page" src="https://github.com/user-attachments/assets/1b18b01c-6e38-4dae-b67c-e45e9d942d37" />
-
+<img width="958" height="497" alt="live page" src="https://github.com/user-attachments/assets/1b18b01c-6e38-4dae-b67c-e45e9d942d37" />
+<img width="950" height="417" alt="Screenshot 2025-08-11 114127" src="https://github.com/user-attachments/assets/11b6d380-cb70-4e72-bf9a-52b34572cc6f" />
 
 
 ## Here's a step-by-step breakdown of how I accomplished this Static website deployment
@@ -62,7 +57,6 @@ Log in to AWS Management Console: Go to the AWS website and log in to your accou
 * Once the bucket is created, click on its name to enter the bucket.
 * Click the "Upload" button.
 * Drag and drop all your website files and folders from your computer into the upload area. Click Upload.
-
 
 ### Step 3: Enable Static Website Hosting on S3 
 * Go to Bucket Properties: Inside your S3 bucket, click on the "Properties" tab.
